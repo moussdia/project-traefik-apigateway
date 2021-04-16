@@ -24,7 +24,7 @@ metadata:
   name: whoami
 
 spec:
-  type: NodePort
+  type: NodePort  #mettre ClusterIP si on consomme a l'interieur du cluster
   ports:
     - protocol: TCP
       port: 80

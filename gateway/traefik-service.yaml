@@ -52,4 +52,4 @@ spec:
       port: 443
       targetPort: websecure
       name: websecure
-  type: NodePort
+  type: NodePort  #loadbalancer on to cloud
