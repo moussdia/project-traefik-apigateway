@@ -22,7 +22,7 @@ spec:
       serviceAccountName: traefik-controller
       containers:
         - name: traefik
-          image: traefik/traefik:latest
+          image: traefik/traefik:experimental-v2.4
           imagePullPolicy: IfNotPresent
           args:
             - --entrypoints.web.address=:80
